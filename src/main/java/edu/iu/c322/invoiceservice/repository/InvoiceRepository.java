@@ -29,7 +29,7 @@ public class InvoiceRepository {
 
         }
         else{
-            throw new IllegalStateException("Invoice id is not valid.");
+            throw new IllegalStateException("Order item with this id does not exist in the system");
         }
 
 
