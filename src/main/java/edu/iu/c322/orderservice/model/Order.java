@@ -3,11 +3,21 @@ package edu.iu.c322.orderservice.model;
 import java.util.ArrayList;
 
 public class Order {
+
+    private int orderId;
     private int customerId;
     private float total;
     private ShippingAddress shippingAddress;
     private ArrayList<Items> items;
     private Payment payment;
+
+    public int getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
+    }
 
     public int getCustomerId() {
         return customerId;

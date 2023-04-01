@@ -1,9 +1,18 @@
 package edu.iu.c322.orderservice.model;
 
 public class Items {
+    private int itemId;
     private String name;
     private int quantity;
     private int price;
+
+    public int getItemId() {
+        return itemId;
+    }
+
+    public void setItemId(int itemId) {
+        this.itemId = itemId;
+    }
 
     public String getName() {
         return name;
